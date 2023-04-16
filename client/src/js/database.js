@@ -30,7 +30,7 @@ export const putDb = async (content) => {
 
 	// Get confirmation of the request.
 	const result = await request;
-	console.log("🚀 - data saved to the database", result);
+	console.log("data saved to the database", result);
 };
 // TODO: Add logic for a method that gets all the content from the database
 export const getDb = async () => {
@@ -52,8 +52,8 @@ export const getDb = async () => {
 	const result = await request;
 	// If there is a text editor entry, return it.
 	result
-		? console.log("🚀 - data retrieved from the database", result.value)
-		: console.log("🚀 - data not found in the database");
+		? console.log(" data retrieved from the database", result.value)
+		: console.log(" data not found in the database");
 	return result?.value;
 };
 

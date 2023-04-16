@@ -22,7 +22,7 @@ export const putDb = async (content) => {
 	// Create a new transaction and specify the database and data privileges.
 	const tx = jateDb.transaction("jate", "readwrite");
 
-	// Open up the desired object store.
+	// Open up the object store.
 	const store = tx.objectStore("jate");
 
 	// Use the .put() method to update data in the database.

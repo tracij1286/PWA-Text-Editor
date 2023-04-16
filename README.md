@@ -37,9 +37,9 @@ After installing all dependencies to use the Application from the command line d
 
 
 ## Usage
-![alt text](/utils/images/screenshot1.png)
-![alt text](/utils/images/screenshot2.png)
-![alt text](/utils/images/screenshot3.png)
+![alt text](/assets/images/screenshot1.png)
+![alt text](/assets/images/screenshot2.png)
+![alt text](/assets/images/screenshot3.png)
 
 
 ## Contributors
@@ -52,7 +52,8 @@ N/A
 https://github.com/tracij1286/PWA-Text-Editor.git
 
 ## Heroku 
-https://drive.google.com/file/d/1ABfV9JDe-J9gRCv-FO_OT7pMOXivFE1V/view?usp=sharing
+https://pwa-text-editor77.herokuapp.com/
+
 
 
 

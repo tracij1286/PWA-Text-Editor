@@ -1,5 +1,5 @@
 {
-  "name": "PWA-Text-Editor",
+  "name": "pwa-text-editor",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -10,12 +10,14 @@
     "install": "cd server && npm i && cd ../client && npm i",
     "client": "cd client && npm start"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tracij1286/PWA-Text-Editor.git"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "if-env": "^1.0.4"
+    "express": "^4.17.1"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
